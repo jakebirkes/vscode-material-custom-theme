@@ -1,4 +1,4 @@
-# README
+# VS Code Material Custom Theme
 
 ## This is the README for your extension "material-custom"
 
