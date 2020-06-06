@@ -1,0 +1,36 @@
+{
+    "name": "material-custom",
+    "publisher": "jakebirkes",
+    "author": "Jake Birkes <jakebirkes@gmail.com> (https://jakebirkes.com)",
+    "displayName": "material-custom",
+    "description": "custom material theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.45.0"
+    },
+    "keywords": [
+        "material theme",
+        "palenight",
+        "material",
+        "purple",
+        "dark"
+    ],
+    "repository": {
+        "url": "https://github.com/jakebirkes/vscode-material-custom-theme",
+        "type": "git"
+    },
+    "bugs": {
+        "url": "https://github.com/jakebirkes/vscode-material-custom-theme/issues"
+    },
+    "license": "MIT",
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [{
+            "label": "Material Custom",
+            "uiTheme": "vs-dark",
+            "path": "./themes/material-custom-theme.json"
+        }]
+    }
+}
