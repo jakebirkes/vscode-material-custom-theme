@@ -74,6 +74,13 @@ lightpurple:
       }
     },
     {
+      "name": "JavaScript 'this'",
+      "scope": "variable.language.this.js.jsx",
+      "settings": {
+        "foreground": "#F78C6C" // peach
+      }
+    },
+    {
       "name": "Keyword",
       "scope": "keyword, modifier, variable.language.this, support.type.object, constant.language",
       "settings": {
