@@ -75,7 +75,7 @@ lightpurple:
     },
     {
       "name": "JavaScript 'this'",
-      "scope": "variable.language.this.js.jsx",
+      "scope": "variable.language.this.js, variable.language.this.js.jsx",
       "settings": {
         "foreground": "#F78C6C" // peach
       }

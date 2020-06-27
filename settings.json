@@ -1,5 +1,3 @@
-// my personal settings for vscode
-
 {
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "newUntitledFile",
@@ -14,67 +12,64 @@
   "liveServer.settings.donotVerifyTags": true,
   "todohighlight.keywords": [{
       "text": "WARNING",
-      "color": "#333",
+      "color": "#FFD76B",
+      "backgroundColor": "transparent",
+      "isWholeLine": false,
       "fontWeight": "bold",
     },
     {
       "text": "WARN",
-      "color": "#333",
+      "color": "#FFD76B",
+      "backgroundColor": "transparent",
+      "isWholeLine": false,
       "fontWeight": "bold",
     },
     {
-      "text": "DEBUG",
-      "color": "#ff073a",
+      "text": "FIXME",
+      "color": "#F07178",
       "backgroundColor": "transparent",
       "isWholeLine": false,
       "fontWeight": "bold",
     },
     {
       "text": "DEBUGGING",
-      "color": "#ff073a",
+      "color": "#F07178",
+      "backgroundColor": "transparent",
+      "isWholeLine": false,
+      "fontWeight": "bold",
+    },
+    {
+      "text": "DEPRECIATED",
+      "color": "#F78C6C",
+      "backgroundColor": "transparent",
+      "isWholeLine": false,
+      "fontWeight": "bold",
+    },
+    {
+      "text": "DEBUG",
+      "color": "#F07178",
       "backgroundColor": "transparent",
       "isWholeLine": false,
       "fontWeight": "bold",
     },
     {
       "text": "REVIEW",
-      "color": "#00FF7F",
+      "color": "#ACE88D",
       "backgroundColor": "transparent",
       "isWholeLine": false,
       "fontWeight": "bold",
     },
     {
       "text": "NOTE",
-      "color": "#333",
-      "backgroundColor": "white",
-      "isWholeLine": false,
-      "fontWeight": "bold",
-    },
-    {
-      "text": "NOTE:",
-      "color": "#333",
-      "backgroundColor": "white",
+      "color": "white",
+      "backgroundColor": "transparent",
       "isWholeLine": false,
       "fontWeight": "bold",
     },
     {
       "text": "TODO",
-      "color": "#333",
-      "backgroundColor": "#00FF7F",
-      "isWholeLine": false,
-      "fontWeight": "bold",
-    },
-    {
-      "text": "TODO:",
-      "color": "#333",
-      "backgroundColor": "#00FF7F",
-      "isWholeLine": false,
-      "fontWeight": "bold",
-    },
-    {
-      "text": "FIXME",
-      "color": "white",
-      "backgroundColor": "#ff073a",
+      "color": "#ACE88D",
+      "backgroundColor": "transparent",
       "isWholeLine": false,
       "fontWeight": "bold",
     }
@@ -83,6 +78,7 @@
   "editor.fontLigatures": true,
   "editor.tabSize": 2,
   "cSpell.enableFiletypes": [
+    "!cpp",
     "!css",
     "!html",
     "!javascript",
@@ -90,9 +86,32 @@
     "!jsonc",
     "!scss"
   ],
-  "cSpell.userWords": [],
+  "cSpell.userWords": [
+    "PWAMP",
+    "Proxying",
+    "Zales",
+    "adyar",
+    "amphtml",
+    "amplist",
+    "amplists",
+    "coronavirus",
+    "crossorigin",
+    "keychain",
+    "linebreak",
+    "msrp",
+    "pinterest",
+    "typeof",
+    "womp",
+    "wompme"
+  ],
+  "markdownlint.config": {
+    "default": true,
+    "MD026": {
+      "punctuation": ""
+    }
+  },
   "editor.wordWrapColumn": 150,
-  "workbench.colorTheme": "minimalist",
+  "workbench.colorTheme": "Material Custom",
   "editor.formatOnSave": true,
   "[javascript]": {
     "editor.formatOnSave": false
@@ -103,5 +122,6 @@
   },
   "eslint.alwaysShowStatus": true,
   "editor.minimap.renderCharacters": false,
-  "files.insertFinalNewline": true
+  "files.insertFinalNewline": true,
+  "editor.largeFileOptimizations": false,
 }
