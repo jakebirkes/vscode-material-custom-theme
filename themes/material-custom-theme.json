@@ -40,7 +40,7 @@ lightpurple:
     },
     {
       "name": "String Escape",
-      "scope": "constant.character.escape, text.html constant.character.entity.named",
+      "scope": "constant.character.escape, text.html constant.character.entity.named, punctuation.terminator.statement.js, punctuation.separator.comma.js, keyword.operator.assignment.js, punctuation.accessor.js",
       "settings": {
         "foreground": "#EEFFFF" // faintblue
       }
@@ -61,9 +61,44 @@ lightpurple:
     },
     {
       "name": "Variable",
-      "scope": "variable, variable.parameter, support.variable, variable.language, support.constant, meta.definition.variable entity.name.function, meta.function-call.arguments",
+      "scope": "variable, variable.other.readwrite.js,",
       "settings": {
-        "foreground": "#EEFFFF" // faintblue
+        "foreground": "#89DDFF" // faintblue
+      }
+    },
+    {
+      "name": "Variable Other",
+      "scope": "variable.other.object.js",
+      "settings": {
+        "foreground": "#80CBC4" // faintblue
+      }
+    },
+    {
+      "name": "Support Variable",
+      "scope": "support.class.console.js",
+      "settings": {
+        "foreground": "#F07178" // faintblue
+      }
+    },
+    {
+      "name": "Support Variable",
+      "scope": "support.variable",
+      "settings": {
+        "foreground": "#82AAFF" // faintblue
+      }
+    },
+    {
+      "name": "Support Variable",
+      "scope": "support.constant.property, keyword.operator.logical.js, keyword.operator.ternary.js, keyword.operator.arithmetic.js, keyword.operator.comparison.js, keyword.operator.assignment.compound.js, keyword.operator.increment.js, keyword.operator.relational.js",
+      "settings": {
+        "foreground": "#FF9CAC" // faintblue
+      }
+    },
+    {
+      "name": "Variable Parameter",
+      "scope": "variable.parameter",
+      "settings": {
+        "foreground": "#FFD76B" // faintblue
       }
     },
     {
@@ -71,6 +106,13 @@ lightpurple:
       "scope": "keyword.other",
       "settings": {
         "foreground": "#F78C6C" // peach
+      }
+    },
+    {
+      "name": "Other Keyword",
+      "scope": "keyword.control.import.js, keyword.control.export.js, keyword.control.loop.js, meta.block, keyword.control.conditional.js, keyword.control.from.js",
+      "settings": {
+        "foreground": "#C792EA" // peach
       }
     },
     {
@@ -103,7 +145,7 @@ lightpurple:
     },
     {
       "name": "Modules",
-      "scope": "support.module, support.node",
+      "scope": "support.module, support.node, constant.language.null.js, constant.language.undefined.js",
       "settings": {
         "foreground": "#F07178", // lightred
         "fontStyle": "italic"
@@ -237,6 +279,37 @@ lightpurple:
         "foreground": "#89DDFF" // lightblue 01
       }
     },
+    {
+      "name": "HTML Mustache",
+      "scope": "entity.name.tag.mustache",
+      "settings": {
+        "foreground": "#FFD76B" // yellow
+      }
+    },
+    
+    {
+      "name": "HTML String Unquoted Mustache",
+      "scope": "string.unquoted.mustache",
+      "settings": {
+        "foreground": "#EEFFFF" // yellow
+      }
+    },
+    {
+      "name": "HTML Handlebars Brackets",
+      "scope": "support.constant.handlebars",
+      "settings": {
+        "foreground": "#FFD76B"
+      }
+    },
+    
+    {
+      "name": "HTML Handlebars",
+      "scope": "meta.function.inline.other.handlebars, meta.function.block.end.handlebars",
+      "settings": {
+        "foreground": "#89DDFF"
+      }
+    },
+
     {
       "name": "HTML tag outer",
       "scope": "meta.tag, punctuation.definition.tag",
@@ -471,8 +544,8 @@ lightpurple:
         "keyword.control"
       ],
       "settings": {
-        "foreground": "#89DDFF", // lightblue 01
-        "fontStyle": "italic"
+        "foreground": "#89DDFF" // lightblue 01
+        // "fontStyle": "italic"
       }
     },
     {
