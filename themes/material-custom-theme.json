@@ -32,35 +32,21 @@ yellow: #FFD76B
     },
     {
       "name": "Faint Blue",
-      "scope": "constant.character.escape, text.html constant.character.entity.named, punctuation.terminator.statement.js, punctuation.separator.comma.js, keyword.operator.assignment.js, punctuation.accessor.js, punctuation.definition.block.js",
+      "scope": "text.html constant.character.entity.named, punctuation.terminator.statement, punctuation.separator.comma, keyword.operator.assignment, punctuation.accessor, punctuation.definition.block, punctuation.definition.bracket.curly.begin.jsdoc, punctuation.definition.bracket.curly.end.jsdoc",
       "settings": {
         "foreground": "#EEFFFF"
       }
     },
     {
       "name": "Light Blue 01",
-      "scope": "punctuation, constant.other.symbol, variable, variable.other.readwrite.js, keyword, modifier, variable.language.this, support.type.object, constant.language",
+      "scope": "constant.other.symbol, variable, keyword, modifier, variable.language.this, support.type.object, constant.language, storage.modifier.async",
       "settings": {
         "foreground": "#89DDFF"
       }
     },
     {
-      "name": "Teal",
-      "scope": "variable.other.object.js",
-      "settings": {
-        "foreground": "#80CBC4"
-      }
-    },
-    {
-      "name": "Light Red",
-      "scope": "support.class.console.js, variable.object.property, meta.field.declaration entity.name.function, meta.definition.method entity.name.function",
-      "settings": {
-        "foreground": "#F07178"
-      }
-    },
-    {
       "name": "Light Red (Italic)",
-      "scope": "support.module, support.node, constant.language.null.js, constant.language.undefined.js, constant.language.boolean",
+      "scope": "support.module, support.node, constant.language.null, constant.language.undefined, constant.language.boolean",
       "settings": {
         "foreground": "#F07178",
         "fontStyle": "italic"
@@ -68,14 +54,21 @@ yellow: #FFD76B
     },
     {
       "name": "Light Blue 02",
-      "scope": "support.variable, entity.name.function, support.function",
+      "scope": "entity.name.function, support.function, variable.other.property, support.variable.property", // support.variable,
       "settings": {
         "foreground": "#82AAFF"
       }
     },
     {
+      "name": "Light Red",
+      "scope": "support.class.console, support.class.console.jsx, variable.object.property, meta.field.declaration entity.name.function, meta.definition.method entity.name.function",
+      "settings": {
+        "foreground": "#F07178"
+      }
+    },
+    {
       "name": "Pink",
-      "scope": "keyword.operator.logical.js, keyword.operator.ternary.js, keyword.operator.arithmetic.js, keyword.operator.comparison.js, keyword.operator.assignment.compound.js, keyword.operator.increment.js, keyword.operator.relational.js, keyword.operator.spread.js",
+      "scope": "keyword.operator.logical, keyword.operator.ternary, keyword.operator.arithmetic, keyword.operator.comparison, keyword.operator.assignment.compound, keyword.operator.increment, keyword.operator.relational, keyword.operator.spread",
       "settings": {
         "foreground": "#FF9CAC"
       }
@@ -89,14 +82,14 @@ yellow: #FFD76B
     },
     {
       "name": "Peach",
-      "scope": "keyword.other, constant.numeric, variable.language.this.js, variable.language.this.js.jsx",
+      "scope": "keyword.other, constant.numeric, variable.language.this, variable.language.this.jsx, string.regexp",
       "settings": {
         "foreground": "#F78C6C"
       }
     },
     {
       "name": "Purple",
-      "scope": "keyword.control.import.js, keyword.control.export.js, keyword.control.loop.js, meta.block, keyword.control.conditional.js, keyword.control.from.js, storage.type, storage.modifier, storage.control, keyword.control.flow.js, constant.character.escape.js",
+      "scope": "keyword.control.import, keyword.control.export, keyword.control.loop, keyword.control.conditional, keyword.control.from, storage.modifier, storage.control, keyword.control.flow, constant.character.escape, storage.type.function.arrow, storage.type, , punctuation.definition.template-expression.begin, punctuation.definition.template-expression.end",
       "settings": {
         "foreground": "#C792EA"
       }
@@ -136,13 +129,13 @@ yellow: #FFD76B
         "foreground": "#F07178"
       }
     },
-    {
-      "name": "JSON key",
-      "scope": "meta.object-literal.key, meta.object-literal.key string, support.type.property-name.json",
-      "settings": {
-        "foreground": "#F07178"
-      }
-    },
+    // {
+    //   "name": "JSON key",
+    //   "scope": "meta.object-literal.key, meta.object-literal.key string, support.type.property-name.json",
+    //   "settings": {
+    //     "foreground": "#F07178"
+    //   }
+    // },
     {
       "name": "JSON constant",
       "scope": "constant.language.json",
@@ -182,7 +175,7 @@ yellow: #FFD76B
       "name": "HTML Mustache",
       "scope": "entity.name.tag.mustache",
       "settings": {
-        "foreground": "#FFD76B" 
+        "foreground": "#89DDFF" 
       }
     },
     
@@ -258,10 +251,24 @@ yellow: #FFD76B
       }
     },
     {
+      "name": "Markdown Punctuation Italic",
+      "scope": "punctuation.definition.italic.markdown, punctuation.definition.bold.markdown, punctuation.definition.list.begin.markdown",
+      "settings": {
+        "foreground": "#89DDFF"
+      }
+    },
+    {
+      "name": "Markdown Begin End",
+      "scope": "punctuation.definition.string.begin.markdown, punctuation.definition.string.end.markdown",
+      "settings": {
+        "foreground": "#C792EA"
+      }
+    },
+    {
       "name": "Markdown italic",
       "scope": "markup.italic",
       "settings": {
-        "foreground": "#F07178",
+        "foreground": "#C792EA",
         "fontStyle": "italic"
       }
     },
@@ -269,7 +276,7 @@ yellow: #FFD76B
       "name": "Markdown bold",
       "scope": "markup.bold",
       "settings": {
-        "foreground": "#F07178",
+        "foreground": "#C792EA",
         "fontStyle": "bold"
       }
     },
@@ -277,7 +284,7 @@ yellow: #FFD76B
       "name": "Markdown bold italic",
       "scope": "markup.bold markup.italic, markup.italic markup.bold",
       "settings": {
-        "foreground": "#F07178",
+        "foreground": "#C792EA",
         "fontStyle": "italic bold"
       }
     },
@@ -393,13 +400,13 @@ yellow: #FFD76B
         "foreground": "#82AAFF"
       }
     },
-    {
-      "name": "Blocks",
-      "scope": "meta.block",
-      "settings": {
-        "foreground": "#F07178"
-      }
-    },
+    // {
+    //   "name": "Blocks",
+    //   "scope": "meta.block",
+    //   "settings": {
+    //     "foreground": "#F07178"
+    //   }
+    // },
     {
       "name": "Function Call",
       "scope": "entity.name.function.call",
@@ -427,13 +434,6 @@ yellow: #FFD76B
       "scope": "entity.name.function",
       "settings": {
         "foreground": "#82AAFF"
-      }
-    },
-    {
-      "name": "Global settings",
-      "settings": {
-        "background": "#222232",
-        "foreground": "#EEFFFF"
       }
     },
     {
