@@ -229,6 +229,14 @@ yellow: #FFD76B
         "foreground": "#EEFFFF"
       }
     },
+    
+    {
+      "name": "Markdown Text",
+      "scope": "meta.paragraph.markdown",
+      "settings": {
+        "foreground": "#EEFFFF"
+      }
+    },
     {
       "name": "Markdown heading",
       "scope": "markup.heading",
