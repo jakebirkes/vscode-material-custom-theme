@@ -32,7 +32,7 @@ yellow: #FFD76B
     },
     {
       "name": "Faint Blue",
-      "scope": "text.html constant.character.entity.named, punctuation.terminator.statement, punctuation.separator.comma, keyword.operator.assignment, punctuation.accessor, punctuation.definition.block, punctuation.definition.bracket.curly.begin.jsdoc, punctuation.definition.bracket.curly.end.jsdoc",
+      "scope": "text.html constant.character.entity.named, punctuation.terminator.statement, punctuation.separator.comma, punctuation.accessor, punctuation.definition.block, punctuation.definition.bracket.curly.begin.jsdoc, punctuation.definition.bracket.curly.end.jsdoc",
       "settings": {
         "foreground": "#EEFFFF"
       }
@@ -68,7 +68,7 @@ yellow: #FFD76B
     },
     {
       "name": "Pink",
-      "scope": "keyword.operator.logical, keyword.operator.ternary, keyword.operator.arithmetic, keyword.operator.comparison, keyword.operator.assignment.compound, keyword.operator.increment, keyword.operator.relational, keyword.operator.spread",
+      "scope": "keyword.operator.logical, keyword.operator.ternary, keyword.operator.arithmetic, keyword.operator.comparison, keyword.operator.assignment.compound, keyword.operator.increment, keyword.operator.relational, keyword.operator.spread, keyword.operator.assignment",
       "settings": {
         "foreground": "#FF9CAC"
       }
@@ -89,7 +89,7 @@ yellow: #FFD76B
     },
     {
       "name": "Purple",
-      "scope": "keyword.control.import, keyword.control.export, keyword.control.loop, keyword.control.conditional, keyword.control.from, storage.modifier, storage.control, keyword.control.flow, constant.character.escape, storage.type.function.arrow, storage.type, , punctuation.definition.template-expression.begin, punctuation.definition.template-expression.end",
+      "scope": "keyword.control.import, keyword.control.export, keyword.control.loop, keyword.control.conditional, keyword.control.from, storage.modifier, storage.control, keyword.control.flow, constant.character.escape, storage.type.function.arrow, storage.type, punctuation.definition.template-expression, template-expression",
       "settings": {
         "foreground": "#C792EA"
       }
@@ -108,13 +108,13 @@ yellow: #FFD76B
         "foreground": "#82AAFF"
       }
     },
-    {
-      "name": "Template expression",
-      "scope": "template.expression.begin, template.expression.end, punctuation.definition.template-expression.begin, punctuation.definition.template-expression.end",
-      "settings": {
-        "foreground": "#89DDFF"
-      }
-    },
+    // {
+    //   "name": "Template expression",
+    //   "scope": "template.expression.begin, template.expression.end, punctuation.definition.template-expression.begin, punctuation.definition.template-expression.end",
+    //   "settings": {
+    //     "foreground": "#89DDFF"
+    //   }
+    // },
     {
       "name": "Reset embedded/template expression colors",
       "scope": "meta.embedded, source.groovy.embedded, meta.template.expression, punctuation.section.property-list.begin.bracket.curly, meta.property-list, punctuation.terminator.rule, punctuation.separator.list.comma, punctuation.separator.key-value",
