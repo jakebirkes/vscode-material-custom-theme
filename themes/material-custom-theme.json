@@ -54,7 +54,7 @@ yellow: #FFD76B
     },
     {
       "name": "Light Blue 02",
-      "scope": "entity.name.function, support.function, variable.other.property, support.variable.property", // support.variable,
+      "scope": "entity.name.function, support.function, variable.other.property, support.variable.property, variable.language.super", // support.variable,
       "settings": {
         "foreground": "#82AAFF"
       }
@@ -117,7 +117,7 @@ yellow: #FFD76B
     },
     {
       "name": "Reset embedded/template expression colors",
-      "scope": "meta.embedded, source.groovy.embedded, meta.template.expression",
+      "scope": "meta.embedded, source.groovy.embedded, meta.template.expression, punctuation.section.property-list.begin.bracket.curly, meta.property-list, punctuation.terminator.rule, punctuation.separator.list.comma, punctuation.separator.key-value",
       "settings": {
         "foreground": "#EEFFFF"
       }
@@ -129,13 +129,13 @@ yellow: #FFD76B
         "foreground": "#F07178"
       }
     },
-    // {
-    //   "name": "JSON key",
-    //   "scope": "meta.object-literal.key, meta.object-literal.key string, support.type.property-name.json",
-    //   "settings": {
-    //     "foreground": "#F07178"
-    //   }
-    // },
+    {
+      "name": "Italic",
+      "scope": "storage.type, storage.modifier, keyword.control.import, keyword.control.export, keyword.control.from, keyword.control.default, keyword.control.extends",
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
     {
       "name": "JSON constant",
       "scope": "constant.language.json",
@@ -224,7 +224,7 @@ yellow: #FFD76B
     },
     {
       "name": "HTML entities",
-      "scope": "punctuation.definition.entity.html",
+      "scope": "punctuation.definition.entity.html, meta.object.member, meta.block, punctuation.definition.parameters, meta.brace.round, meta.object-binding-pattern-variable",
       "settings": {
         "foreground": "#EEFFFF"
       }
