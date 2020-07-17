@@ -89,7 +89,7 @@ yellow: #FFD76B
     },
     {
       "name": "Purple",
-      "scope": "keyword.control.import, keyword.control.export, keyword.control.loop, keyword.control.conditional, keyword.control.from, storage.modifier, storage.control, keyword.control.flow, constant.character.escape, storage.type.function.arrow, storage.type, punctuation.definition.template-expression, template-expression",
+      "scope": "keyword.control.import, keyword.control.export, keyword.control.loop, keyword.control.conditional, keyword.control.from, storage.modifier, storage.control, keyword.control.flow, constant.character.escape, storage.type.function.arrow, storage.type, punctuation.definition.template-expression, template-expression, keyword.operator.expression.of, keyword.operator.expression.in",
       "settings": {
         "foreground": "#C792EA"
       }
