@@ -650,7 +650,7 @@ yellow: #FFD76B
     "terminal.ansiWhite": "#ffffff",
     "terminal.ansiYellow": "#FFD76B", 
     "debugToolBar.background": "#222232",
-    "selection.background": "#2c2c4180",
+    "selection.background": "#C792EA80",
     "editorRuler.foreground": "#666666",
     "widget.shadow": "#2c2c4130",
     "scrollbar.shadow": "#2c2c4130",
