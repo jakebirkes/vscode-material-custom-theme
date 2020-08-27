@@ -32,7 +32,7 @@ yellow: #FFD76B
     },
     {
       "name": "Faint Blue",
-      "scope": "text.html constant.character.entity.named, punctuation.terminator.statement, punctuation.separator.comma, punctuation.accessor, punctuation.definition.block, punctuation.definition.bracket.curly.begin.jsdoc, punctuation.definition.bracket.curly.end.jsdoc",
+      "scope": "meta.brace.square.js, text.html constant.character.entity.named, punctuation.terminator.statement, punctuation.separator.comma, punctuation.accessor, punctuation.definition.block, punctuation.definition.bracket.curly.begin.jsdoc, punctuation.definition.bracket.curly.end.jsdoc",
       "settings": {
         "foreground": "#EEFFFF"
       }
@@ -103,7 +103,7 @@ yellow: #FFD76B
     },
     {
       "name": "Function definition",
-      "scope": "meta.function entity.name.function",
+      "scope": "meta.function entity.name.function, entity.name.function.js, meta.object.member",
       "settings": {
         "foreground": "#82AAFF"
       }
@@ -224,7 +224,7 @@ yellow: #FFD76B
     },
     {
       "name": "HTML entities",
-      "scope": "punctuation.definition.entity.html, meta.object.member, meta.block, punctuation.definition.parameters, meta.brace.round, meta.object-binding-pattern-variable",
+      "scope": "punctuation.definition.entity.html, meta.object.member.html, meta.block, punctuation.definition.parameters, meta.brace.round, meta.object-binding-pattern-variable",
       "settings": {
         "foreground": "#EEFFFF"
       }
