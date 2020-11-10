@@ -1,18 +1,3 @@
-/*
-grey: #666666 #424258
-darkblue: #16161d #21212c #062035
-teal: #80CBC4
-lightblue 01: #89DDFF #71f0e9
-lightblue 02: #82AAFF #6b93ff #71b8f0 #71b8f0
-faintblue: #EEFFFF
-green: #ACE88D #b5ea92 #71f0aa
-Orange: #FF9CAC #f0aa71
-peach: #F78C6C
-purple: #C792EA #e971f0
-lightred: #F07178
-yellow: #FFD76B #f0e971
-*/
-
 {
   "name": "material-custom",
   "semanticHighlighting": true,
@@ -24,15 +9,15 @@ yellow: #FFD76B #f0e971
       }
     },
     {
-      "name": "String",
-      "scope": "string",
+      "name": "Green",
+      "scope": "string, support.constant.property-value.css, constant.other.color.rgb-value.hex.css, constant.numeric.css, support.constant.color.w3c-standard-color-name.css, keyword.other.unit.px.css, keyword.other.unit.percentage.css, keyword.other.unit.vh.css, keyword.other.unit.vw.css, keyword.other.unit.em.css, keyword.other.unit.rem.css, punctuation.definition.constant.css, support.constant.color.w3c-extended-color-name.css, meta.property-value.css",
       "settings": {
         "foreground": "#71f0aa"
       }
     },
     {
       "name": "White",
-      "scope": "meta.brace.square.js, text.html constant.character.entity.named, punctuation.terminator.statement, punctuation.separator.comma, punctuation.accessor, punctuation.definition.block, punctuation.definition.bracket.curly.begin.jsdoc, punctuation.definition.bracket.curly.end.jsdoc",
+      "scope": "meta.brace.square.js, text.html constant.character.entity.named, punctuation.terminator.statement, punctuation.separator.comma, punctuation.accessor, punctuation.definition.block, punctuation.definition.bracket.curly.begin, punctuation.definition.bracket.curly.end",
       "settings": {
         "foreground": "#FFF"
       }
@@ -54,7 +39,7 @@ yellow: #FFD76B #f0e971
     },
     {
       "name": "Blue",
-      "scope": "entity.name.function, support.function, variable.other.property, support.variable.property, variable.language.super, support.class",
+      "scope": "entity.name.function, support.function, variable.other.property, support.variable.property, variable.language.super, support.class, entity.other.attribute-name.pseudo-class.css",
       "settings": {
         "foreground": "#71b8f0"
       }
@@ -68,14 +53,14 @@ yellow: #FFD76B #f0e971
     },
     {
       "name": "Orange",
-      "scope": "keyword.operator.logical, keyword.operator.ternary, keyword.operator.arithmetic, keyword.operator.comparison, keyword.operator.assignment.compound, keyword.operator.increment, keyword.operator.relational, keyword.operator.spread, keyword.operator.assignment, string.regexp",
+      "scope": "keyword.operator.logical, keyword.operator.ternary, keyword.operator.arithmetic, keyword.operator.comparison, keyword.operator.assignment.compound, keyword.operator.increment, keyword.operator.relational, keyword.operator.spread, keyword.operator.assignment, string.regexp, keyword.operator.combinator.css",
       "settings": {
         "foreground": "#f0aa71"
       }
     },
     {
       "name": "Yellow",
-      "scope": "variable.parameter, support.type, constant.other.key, entity.name.type, entity.other.inherited-class, entity.other, entity.name, entity.name.type.class, support.type, meta.use",
+      "scope": "variable.parameter, support.type, constant.other.key, entity.name.type, entity.other.inherited-class, entity.other, entity.name, entity.name.type.class, support.type, meta.use, text.html.derivative, support.constant.media.css, entity.other.attribute-name.pseudo-element.css",
       "settings": {
         "foreground": "#f0e971"
       }
@@ -88,8 +73,16 @@ yellow: #FFD76B #f0e971
       }
     },
     {
+      "name": "Purple (Italic)",
+      "scope": "keyword.control.at-rule.media.css, keyword.control.at-rule.supports.css",
+      "settings": {
+        "foreground": "#e971f0",
+        "fontStyle": "italic"
+      }
+    },
+    {
       "name": "Purple",
-      "scope": "keyword.control.import, keyword.control.export, keyword.control.loop, keyword.control.conditional, keyword.control.from, storage.modifier, storage.control, keyword.control.flow, constant.character.escape, storage.type.function.arrow, storage.type, punctuation.definition.template-expression, template-expression, keyword.operator.expression.of, keyword.operator.expression.in, keyword.control.switch.js",
+      "scope": "keyword.control.import, keyword.control.export, keyword.control.loop, keyword.control.conditional, keyword.control.from, storage.modifier, storage.control, keyword.control.flow, constant.character.escape, storage.type.function.arrow, storage.type, punctuation.definition.template-expression, template-expression, keyword.operator.expression.of, keyword.operator.expression.in, keyword.control.switch.js, keyword.control.trycatch.js",
       "settings": {
         "foreground": "#e971f0"
       }
@@ -110,7 +103,7 @@ yellow: #FFD76B #f0e971
     },
     {
       "name": "Reset embedded/template expression colors",
-      "scope": "meta.embedded, source.groovy.embedded, meta.template.expression, punctuation.section.property-list.begin.bracket.curly, meta.property-list, punctuation.terminator.rule, punctuation.separator.list.comma, punctuation.separator.key-value",
+      "scope": "meta.embedded, source.groovy.embedded, meta.template.expression, punctuation.section.property-list.begin.bracket.curly, punctuation.terminator.rule, punctuation.separator.list.comma, punctuation.separator.key-value",
       "settings": {
         "foreground": "#EEFFFF"
       }
@@ -140,28 +133,28 @@ yellow: #FFD76B #f0e971
       "name": "CSS class",
       "scope": "entity.other.attribute-name.class",
       "settings": {
-        "foreground": "#f0e971" 
+        "foreground": "#71f0e9" 
       }
     },
     {
       "name": "CSS ID",
       "scope": "entity.other.attribute-name.id",
       "settings": {
-        "foreground": "#F78C6C"
+        "foreground": "#e971f0"
       }
     },
     {
       "name": "CSS tag",
       "scope": "source.css entity.name.tag",
       "settings": {
-        "foreground": "#f0e971" 
+        "foreground": "#F07178" 
       }
     },
     {
       "name": "CSS properties",
       "scope": "support.type.property-name.css",
       "settings": {
-        "foreground": "#71f0e9"
+        "foreground": "#71b8f0"
       }
     },
     {
