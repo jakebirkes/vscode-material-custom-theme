@@ -46,7 +46,7 @@
     },
     {
       "name": "Red",
-      "scope": "support.class.console, support.class.console.jsx, variable.object.property, meta.field.declaration entity.name.function, meta.definition.method entity.name.function",
+      "scope": "support.class.console, support.class.console.jsx, variable.object.property, meta.field.declaration entity.name.function, meta.definition.method entity.name.function, keyword.control.import, keyword.control.export, keyword.control.from, keyword.operator.new",
       "settings": {
         "foreground": "#F07178"
       }
@@ -82,7 +82,7 @@
     },
     {
       "name": "Purple",
-      "scope": "keyword.control.import, keyword.control.export, keyword.control.loop, keyword.control.conditional, keyword.control.from, storage.modifier, storage.control, keyword.control.flow, constant.character.escape, storage.type.function.arrow, storage.type, punctuation.definition.template-expression, template-expression, keyword.operator.expression.of, keyword.operator.expression.in, keyword.control.switch.js, keyword.control.trycatch.js",
+      "scope": "keyword.control.loop, keyword.control.conditional, storage.modifier, storage.control, keyword.control.flow, constant.character.escape, storage.type.function.arrow, storage.type, punctuation.definition.template-expression, template-expression, keyword.operator.expression.of, keyword.operator.expression.in, keyword.control.switch, keyword.control.trycatch",
       "settings": {
         "foreground": "#e971f0"
       }
