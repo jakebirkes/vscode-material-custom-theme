@@ -24,7 +24,7 @@
     },
     {
       "name": "Teal",
-      "scope": "constant.other.symbol, variable, keyword, modifier, variable.language.this, support.type.object, constant.language, storage.modifier.async, punctuation.definition.string.begin, punctuation.definition.string.end, punctuation.definition.string.template.begin, punctuation.definition.string.template.end, punctuation.definition.group.regexp, support.type.builtin.graphql",
+      "scope": "constant.other.symbol, variable, keyword, modifier, variable.language.this, support.type.object, constant.language, punctuation.definition.string.begin, punctuation.definition.string.end, punctuation.definition.string.template.begin, punctuation.definition.string.template.end, punctuation.definition.group.regexp, support.type.builtin.graphql",
       "settings": {
         "foreground": "#71f0e9"
       }
@@ -74,7 +74,7 @@
     },
     {
       "name": "Purple (Italic)",
-      "scope": "keyword.control.at-rule.media.css, keyword.control.at-rule.supports.css",
+      "scope": "keyword.control.at-rule.media.css, keyword.control.at-rule.supports.css, storage.modifier.async, keyword.control.flow",
       "settings": {
         "foreground": "#e971f0",
         "fontStyle": "italic"
@@ -82,7 +82,7 @@
     },
     {
       "name": "Purple",
-      "scope": "keyword.control.loop, keyword.control.conditional, storage.modifier, storage.control, keyword.control.flow, constant.character.escape, storage.type.function.arrow, storage.type, punctuation.definition.template-expression, template-expression, keyword.operator.expression.of, keyword.operator.expression.in, keyword.control.switch, keyword.control.trycatch, keyword.type.graphql",
+      "scope": "keyword.control.loop, keyword.control.conditional, storage.modifier, storage.control, constant.character.escape, storage.type.function.arrow, storage.type, punctuation.definition.template-expression, template-expression, keyword.operator.expression.of, keyword.operator.expression.in, keyword.control.switch, keyword.control.trycatch, keyword.type.graphql",
       "settings": {
         "foreground": "#e971f0"
       }
