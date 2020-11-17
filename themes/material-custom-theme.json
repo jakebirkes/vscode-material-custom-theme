@@ -17,7 +17,7 @@
     },
     {
       "name": "White",
-      "scope": "meta.brace.square.js, text.html constant.character.entity.named, punctuation.terminator.statement, punctuation.separator.comma, punctuation.accessor, punctuation.definition.block, punctuation.definition.bracket.curly.begin, punctuation.definition.bracket.curly.end",
+      "scope": "meta.brace.square.js, text.html constant.character.entity.named, punctuation.terminator.statement, punctuation.separator.comma, punctuation.accessor, punctuation.definition.block, punctuation.definition.bracket.curly.begin, punctuation.definition.bracket.curly.end, text.html.derivative",
       "settings": {
         "foreground": "#FFF"
       }
@@ -60,7 +60,7 @@
     },
     {
       "name": "Yellow",
-      "scope": "variable.parameter, constant.other.key, entity.name.type, entity.other.inherited-class, entity.other, entity.name, entity.name.type.class, support.type, meta.use, text.html.derivative, support.constant.media.css, entity.other.attribute-name.pseudo-element.css",
+      "scope": "variable.parameter, constant.other.key, entity.name.type, entity.other.inherited-class, entity.other, entity.name, entity.name.type.class, support.type, meta.use, support.constant.media.css, entity.other.attribute-name.pseudo-element.css",
       "settings": {
         "foreground": "#f0e971"
       }
