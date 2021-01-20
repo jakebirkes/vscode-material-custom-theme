@@ -24,7 +24,7 @@
     },
     {
       "name": "Teal",
-      "scope": "constant.other.symbol, variable, keyword, modifier, variable.language.this, support.type.object, constant.language, punctuation.definition.string.begin, punctuation.definition.string.end, punctuation.definition.group.regexp, support.type.builtin.graphql",
+      "scope": "constant.other.symbol, variable, keyword, modifier, variable.language.this, support.type.object, constant.language, punctuation.definition.group.regexp, support.type.builtin.graphql",
       "settings": {
         "foreground": "#FFF"
       }
