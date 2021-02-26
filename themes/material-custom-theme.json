@@ -286,7 +286,7 @@
       "foreground": "#F0E971"
     }
   }, {
-    "scope": ["storage.modifier", "keyword.operator.new", "keyword.operator.expression", "keyword.begin.blade", "keyword.end.blade", "keyword.blade", "keyword.type-alias", "keyword.type", "support.class.console", "keyword.other.await", "storage.type.class.jsdoc", "punctuation.definition.block.tag.jsdoc"],
+    "scope": ["storage.modifier", "keyword.operator", "keyword.operator.new", "keyword.operator.expression", "keyword.begin.blade", "keyword.end.blade", "keyword.blade", "keyword.type-alias", "keyword.type", "support.class.console", "keyword.other.await", "storage.type.class.jsdoc", "punctuation.definition.block.tag.jsdoc"],
     "settings": {
       "foreground": "#F0E971"
     }
@@ -306,7 +306,7 @@
       "foreground": "#F0E971"
     }
   }, {
-    "scope": ["attribute_value", "meta.brace", "punctuation.definition.parameters", "punctuation.definition.template-expression", "keyword.operator", "keyword.other", "punctuation.terminator", "punctuation.separator", "punctuation.definition.generic.begin", "punctuation.definition.generic.end", "meta.function.type-declaration", "keyword.other.colon.elm", "meta.record.field.elm keyword.other.elm", "keyword.other.period.elm", "meta.tag.xml", "meta.tag.preprocessor.xml", "punctuation.definition.block", "punctuation.accessor", "constant.name.attribute.tag.pug", "string.interpolated.pug", "keyword.other.whitespace.liquid", "meta.tag.template.block.twig", "meta.tag.template.value.twig", "begin.bracket", "end.bracket", "text.html.twig meta.tag.inline.any", "text.html.twig meta.tag.block.any", "support.function.construct.begin.blade", "support.function.construct.end.blade source.php", "support.function.construct.end.blade", "meta.function.echo.blade source.php", "punctuation.definition.list.begin.python", "punctuation.definition.list.end.python", "text.html.vue-html meta.tag.block.any"],
+    "scope": ["attribute_value", "meta.brace", "punctuation.definition.parameters", "punctuation.definition.template-expression", "keyword.other", "punctuation.terminator", "punctuation.separator", "punctuation.definition.generic.begin", "punctuation.definition.generic.end", "meta.function.type-declaration", "keyword.other.colon.elm", "meta.record.field.elm keyword.other.elm", "keyword.other.period.elm", "meta.tag.xml", "meta.tag.preprocessor.xml", "punctuation.definition.block", "punctuation.accessor", "constant.name.attribute.tag.pug", "string.interpolated.pug", "keyword.other.whitespace.liquid", "meta.tag.template.block.twig", "meta.tag.template.value.twig", "begin.bracket", "end.bracket", "text.html.twig meta.tag.inline.any", "text.html.twig meta.tag.block.any", "support.function.construct.begin.blade", "support.function.construct.end.blade source.php", "support.function.construct.end.blade", "meta.function.echo.blade source.php", "punctuation.definition.list.begin.python", "punctuation.definition.list.end.python", "text.html.vue-html meta.tag.block.any"],
     "settings": {
       "foreground": "#fff"
     }
