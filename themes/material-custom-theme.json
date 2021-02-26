@@ -239,11 +239,11 @@
     "titleBar.border": "#262e40"
   },
   "tokenColors": [{
-    "scope": ["support.module.elm", "entity.other.inherited-class.python", "variable.other.object", "support.other.namespace.php", "entity.other.attribute-name.namespace.xml", "record.accessor", "entity.name.record.field.accessor"],
+    "scope": ["support.module.elm", "entity.other.inherited-class.python", "variable.other.object", "support.variable", "support.other.namespace.php", "entity.other.attribute-name.namespace.xml", "record.accessor", "entity.name.record.field.accessor"],
     "settings": {
       "foreground": "#F0AA71",
       "fontStyle": "italic"
-    } //
+    }
   }, {
     "scope": ["entity.name.type"],
     "settings": {
@@ -266,12 +266,12 @@
       "foreground": "#ffffff"
     }
   }, {
-    "scope": ["entity.name.function.decorator", "meta.decorator entity.name.function", "meta.decorator punctuation.decorator", "punctuation.definition.decorator", "meta.decorator variable.other.readwrite.ts"],
+    "scope": ["entity.name.function.decorator", "meta.decorator entity.name.function", "meta.decorator punctuation.decorator", "punctuation.definition.decorator", "meta.decorator variable.other.readwrite.ts", "keyword.control", "keyword.control.conditional", "keyword.control.export", "keyword.control.import"],
     "settings": {
       "foreground": "#F38CEC"
     }
   }, {
-    "scope": ["keyword.control.export", "support.type.object.module"],
+    "scope": ["support.type.object.module"],
     "settings": {
       "foreground": "#F0E971"
     }
@@ -281,12 +281,12 @@
       "foreground": "#71B8F0"
     }
   }, {
-    "scope": ["keyword.control.import", "meta.module.name.elm support", "meta.import.elm support", "keyword.control.at-rule", "punctuation.definition.keyword", "variable.control.import.include"],
+    "scope": ["meta.module.name.elm support", "meta.import.elm support", "keyword.control.at-rule", "punctuation.definition.keyword", "variable.control.import.include"],
     "settings": {
       "foreground": "#F0E971"
     }
   }, {
-    "scope": ["keyword.control", "keyword.control.conditional", "storage.modifier", "keyword.operator.new", "keyword.operator.expression", "keyword.begin.blade", "keyword.end.blade", "keyword.blade", "keyword.type-alias", "keyword.type", "support.class.console", "keyword.other.await", "storage.type.class.jsdoc", "punctuation.definition.block.tag.jsdoc"],
+    "scope": ["storage.modifier", "keyword.operator.new", "keyword.operator.expression", "keyword.begin.blade", "keyword.end.blade", "keyword.blade", "keyword.type-alias", "keyword.type", "support.class.console", "keyword.other.await", "storage.type.class.jsdoc", "punctuation.definition.block.tag.jsdoc"],
     "settings": {
       "foreground": "#F0E971"
     }
@@ -319,7 +319,7 @@
   }, {
     "scope": ["storage", "meta.var.expr storage.type", "storage.type.function", "keyword.function", "storage.type.class", "storage.type.property", "keyword.other", "keyword.local.lua", "entity.name.class", "meta.function.lua keyword.control.lua", "storage.type.enum", "storage.type.interface", "storage.type.type"],
     "settings": {
-      "foreground": "#71f0e9",
+      "foreground": "#B78AFF",
       "fontStyle": "italic"
     }
   }, {
@@ -335,7 +335,7 @@
   }, {
     "scope": ["variable", "variable.language", "entity.name.type.class.js", "entity.name.variable", "support.variable.magic", "meta.method.body", "entity.name.variable", "punctuation.definition.variable", "support.variable.property", "meta.class variable.object.property", "variable.other.constant entity.name.function"],
     "settings": {
-      "foreground": "#FF738A"
+      "foreground": "#71f0e9"
     }
   }, {
     "scope": ["source.elm constant.type-constructor"],
@@ -361,7 +361,7 @@
   }, {
     "scope": ["meta.tag.sgml.doctype.html", "punctuation.definition.tag", "meta.tag.block.any", "meta.tag.block.any.html", "meta.tag.inline.any", "source.css-ignored-vscode", "meta.tag.metadata.style.end.html"],
     "settings": {
-      "foreground": "#71B8F0aa"
+      "foreground": "#71f0e9"
     }
   }, {
     "scope": ["entity.other.attribute-name", "entity.name.tag.liquid", "invalid.deprecated.entity.other.attribute-name", "meta.embedded.block.blade storage.type.php"],
