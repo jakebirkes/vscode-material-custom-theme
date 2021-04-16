@@ -234,7 +234,7 @@
     "walkThrough.embeddedEditorBackground": "#1E1E28",
     "titleBar.activeBackground": "#1E1E28",
     "titleBar.activeForeground": "#576375",
-    "titleBar.inactiveBackground": "#262e40",
+    "titleBar.inactiveBackground": "#1E1E28",
     "titleBar.inactiveForeground": "#576375",
     "titleBar.border": "#262e40"
   },
